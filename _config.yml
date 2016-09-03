@@ -1,39 +1,39 @@
-typography_spectrum: 0
-content_rating:
-  adult: false
+title: works
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0
   brandStrength: 0.5311973
-  lightness: 0.6416526
-  saturation: 0.3086003
-  rhythmicContrast: 0.6032046
+  lightness: 0
   brandColors:
     - '#0F201C'
     - '#3D5144'
     - '#F2E86B'
     - '#E2BC43'
     - '#819274'
-layout_spectrum: 0.5042158
+  rhythmicContrast: 0
+navigation:
+  - name: Miguel Santiago
+    url: www.pk35.net
+    type: external
+name: Nomami Arquitectos
 author:
   url: www.nomami.es
   name: Miguel Santiago
   email: info@nomami.es
 logo: >-
   https://the-grid-user-content.s3-us-west-2.amazonaws.com/ee33047b-a57c-42c0-8e2c-74be946487f5.png
-name: Nomami Arquitectos
-navigation:
-  - name: Miguel Santiago
-    url: www.pk35.net
-    type: external
-collections:
-  - index:
-      navigable: true
-      path: /
-      number: 15
-      paginate: true
-    feed:
-      format: rss
-      path: /rss.xml
-      number: 10
-    permalink:
-      path: '/:title/'
-title: works
+typography_spectrum: 0
+layout_spectrum: 0.5042158
+content_rating:
+  adult: false
